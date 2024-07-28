@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+}
+body{
+    margin: 3px;
+    padding: 0%;
+    background: rgb(3, 0, 10);
+}
+/*--------------------------------------------------- nav-------------------------------------------------------- */
+ header {
+   background-image: url("Awesome\ \(3\)\ -\ frame\ at\ 0m8s.jpg");
+   background-attachment: fixed;
+   background-position: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-bottom: #ffffff solid 2px ;
+   color: #ffffff;
+   font-size: 32px;
+   padding: 18px 44px;
+   border-radius: 25px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 20px;
+   transition: ease-in-out 1s;
+} 
+
+ 
+header:hover{
+   background-image: url("Awesome\ \(3a\)\ -\ frame\ at\ 0m8s.jpg");
+   background-attachment: fixed;
+   background-position: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: #e6fcff;
+   cursor: default;
+} 
+
+nav ul {
+   font-size: 32px;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   color: aliceblue;
+}
+
+nav ul li {
+   display: inline-flex;
+   margin-right: 1px;
+}
+
+nav ul li a {
+   font-weight: 600;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   transition: color 700ms ease;
+}
+
+nav ul li a:hover {
+   color: rgb(17, 0, 255);
+}
+
+i{
+   font-size: 59px;
+}
+
+
+nav .fas{
+   display: none ;
+}
+
+
+
+
+ /*--------------------home----------------------*/
+ #home span{
+    color: blue;
+    text-shadow: 2px 2px #1d1d1d69;
+}
+
+ #home, #about, #projects, #contact{
+    background-image: url("Awesome\ \(3\)\ -\ frame\ at\ 0m8s.jpg");
+    background-attachment: fixed;
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    color: rgba(240, 248, 255, 0.959);
+    padding: 2%;
+    margin: 20px;
+    transition: ease-in-out 1s;
+ }
+
+ #home:hover, #about:hover, #projects:hover, #contact:hover{
+    background-image: url("Awesome\ \(3a\)\ -\ frame\ at\ 0m8s.jpg");
+    background-attachment: fixed;
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #e6fcff;
+    cursor: default;
+ } 
+
+ #home h1{
+   margin-top: 34vh;
+    margin-bottom: 5%;
+    margin-left: 4%;
+    margin-right: 1%;
+    font: 4em normal;
+    text-shadow: 2px 2px rgba(24, 24, 24, 0.89);
+ }
+
+ #home p{
+    font-size: 27px;
+    margin: 3% 4%;
+ }
+
+ /*--------------about--------------*/
+
+
+ #about span{
+    color: blue;
+    text-shadow: 2px 2px #1d1d1de1;
+}
+
+#about h1{
+    margin: 2%;
+    font: 4em normal;
+    text-shadow: 2px 2px rgba(24, 24, 24, 0.89);
+ }
+
+ #about p{
+    font-size: 27px;
+    margin: 2.3% 4%;
+ }
+
+ #about img{
+    margin: 20px 3%;
+    padding: 12px 12px;
+    border-radius: 67px;
+    width: 83px;
+    border: solid whitesmoke 2px;
+    background-color: rgba(128, 128, 128, 0.877);
+    transition: all .8s;
+    box-shadow: 0 9% 0 rgba(245, 245, 245, 0.884);
+ }
+
+ #about img:hover{
+    background: #0a0a0ae5;
+    filter: contrast(9px);
+ }
+
+/*--------------------projects------------------------------*/
+
+
+#projects span{
+   color: blue;
+   text-shadow: 2px 2px #1d1d1d69;
+}
+
+
+#projects h1{
+   margin: 9px 90px;
+   font: 4em normal;
+}
+
+#projects .image{
+   max-width: 100vw;
+   margin: 1%;
+   padding: 0;
+   align-content: center;
+   border-radius: 32px;
+   align-items: center;
+   justify-content: space-evenly;
+   transition: all 1.6s;
+}
+
+#projects .image:hover{
+   background: rgba(15, 15, 15, 0.623); 
+   
+}
+
+#projects img{
+   justify-content: center;
+   align-content: center;
+   margin: 3.6vh 3.8vw;
+   align-self: max-content;
+   border-radius: 35px;
+   width: 280px;
+   height: 254px;
+   transition: all .9s;
+   border-spacing: 100%;
+   border: 4px solid rgba(17, 27, 165, 0);
+}
+
+#projects img:hover{
+   border: 4px solid rgba(238, 239, 241, 0);
+   box-shadow: 0 0 19px 0 whitesmoke;
+}
+
+/*---------------contacts------------------*/
+
+#contact span{
+   color: blue;
+   text-shadow: 2px 2px #1d1d1d69;
+}
+
+
+
+#contact h1{
+   font: 3em normal;
+}
+
+#contact h2{
+   margin: 1px 4%;
+   font: 2em normal;
+}
+
+#contact a, #button{
+   margin: 2% 1.3%;
+   padding: 8px 9px;
+   font-size: 20px;
+   font: normal;
+   text-decoration: none;
+   color: whitesmoke;
+   background: #0f00e644;
+   border: white solid 1px;
+   border-radius: 14px;
+   transition: all .4s;
+}
+
+#contact a:hover, #button:hover{
+   text-decoration: none;
+   color: whitesmoke;
+   background: #0f00e6f5;
+   border: white solid 1px;
+}
+
+#contact form{
+   margin-top: 0%;
+   margin-left: 55%;
+   width: 40%;
+   display: block;
+   color: rgb(38, 36, 77);
+}
+
+#contact input, textarea{
+   width: 100%;
+   outline: none;
+   background-image: url("image_d32.jpg");
+   background-attachment: fixed;
+   background-position: right;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding: 12px;
+   margin: 4%;
+   resize: none;
+   color: rgb(9, 0, 139);
+   font-size: 18px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   border: solid rgba(14, 14, 14, 0.671) 2px;
+   border-radius: 6px;
+   transition: ease-in-out .3s;
+}
+
+#contact input:hover, textarea:hover{
+   background-image: url("img32.jpg");
+   background-attachment: fixed;
+   background-position: 0;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border: solid rgba(255, 255, 255, 0.966) 2px;
+}
+
+/*------------ media width ---------------*/
+
+@media only screen and (max-width:890px){
+   header h1{
+      font: 10vh normal;
+   }
+   
+nav i .fas{
+   position: fixed;
+   display: inline ;
+   font-size: 93px;
+   color: #ffffff;
+}
+
+ nav ul{
+   position: fixed;
+   background: rgb(0, 26, 255);
+   top: 0;
+   right: -100vw;
+   width: 100vw;
+   height: max-content;
+   padding-top: 50px;      
+   z-index: 2;
+}
+
+nav ul li{
+   display: block;
+   margin: 22px;
+   left: 8vw;
+}
+
+nav ul .fas{
+   top: 25px;
+   bottom: 25px;
+   left: 25px;
+   cursor: pointer;
+}
+
+#about img{
+   margin: 20px 3%;
+   padding: 12px 12px;
+   border-radius: 67px;
+   width: 99px;
+   border: solid whitesmoke 2px;
+   background-color: rgba(128, 128, 128, 0.877);
+   transition: all .8s;
+   box-shadow: 0 9% 0 rgba(245, 245, 245, 0.884);
+}
+
+
+  header, #home, #about, #projects, #contact{
+      background-image: url("Awesome\ \(3b\)\ -\ frame\ at\ 0m8s.jpg");
+      background-attachment: fixed;
+      background-position: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 25px;
+      color: rgba(240, 248, 255, 0.959);
+      padding: 4%;
+      margin: 20px;
+      transition: ease-in-out 1s;
+   }
+
+   header:hover, #home:hover, #about:hover, #projects:hover, #contact:hover{
+      background-image: url("Awesome\ \(3c\)\ -\ frame\ at\ 0m8s.jpg");
+      background-attachment: fixed;
+      background-position: fixed;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: #e6fcff;
+      cursor: default;
+   } 
+
+   #contact h1{
+      font: 2em normal;
+   }
+   
+   #contact h2{
+      font: 1.5em normal;
+   }
+   
+   #contact form{
+      margin-top: -10%;
+      margin-left: 55%;
+      width: 40%;
+      display: block;
+      color: rgb(255, 255, 255);
+   }
+   
+    
+
+   }
+   
+   @media only screen and (min-width:2000px){
+
+      #projects .image{
+         max-width: 100vw;
+         margin: 1%;
+         padding: 1% 3.1%;
+         align-content: stretch;
+         border-radius: 32px;
+         align-items: center;
+         justify-content: center;
+         transition: all 1.6s;
+      }
+      
+      #projects .image:hover{
+         background: rgba(80, 80, 80, 0.623); 
+         
+      }
+      
+      #projects img{
+         justify-content: center;
+         align-content: center;
+        margin: 3.6vh 5.8vw;
+         align-self: max-content;
+         border-radius: 35px;
+         width: 280px;
+         height: 254px;
+         transition: all .9s;
+         border-spacing: 100%;
+         border: 4px solid rgba(17, 27, 165, 0);
+      }
+      
+      #projects img:hover{
+         border: 4px solid rgba(238, 239, 241, 0);
+         box-shadow: 0 0 19px 0 rgb(255, 255, 255);
+      }
+
+      #contact h1{
+         margin-top: 22px;
+         margin-left: 28%;
+         margin-bottom: 8px;
+         font: 4em normal;
+      }
+
+      #contact h2{
+         background: rgba(0, 0, 0, 0.37);
+         margin: 1px 26%;
+         padding: 0 8px;
+         font: 3em normal;
+      }
+
+      .social{
+         margin-left: -14%;
+      }
+      
+      #contact input, textarea{
+         width: 100%;
+         outline: #ffffff;
+         background-image: url("image_d32.jpg");
+         background-attachment: fixed;
+         background-position: right;
+         background-size: cover;
+         background-repeat: no-repeat;
+         padding: 12px;
+         margin: 4% ;
+         margin-left: -49%;
+         resize: none;
+         color: rgb(12, 16, 214);
+         font-size: 18px;
+         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         border: solid rgba(255, 255, 255, 0.671) 2px;
+         border-radius: 6px;
+         transition: ease-in-out .3s;
+      }
+
+      #buttons{
+         margin-left: -25%;
+      }
+
+      header {
+         color: #ffffff;
+         font-size: 42px;
+         padding: 18px 44px;
+         border-radius: 25px;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         margin: 20px;
+         transition: ease-in-out 1s;
+      }
+      
+      header h1{
+         font: 3em normal;
+      }
+      
+      nav ul {
+         font-size: 47px;
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         color: aliceblue;
+      }
+      
+      nav ul li {
+         display: inline-flex;
+         margin-right: 13px;
+      }
+      
+      nav ul li a {
+         font-weight: 600;
+         text-decoration: none;
+         color: rgb(255, 255, 255);
+         transition: color 700ms ease;
+      }
+      
+      nav ul li a:hover {
+         color: rgb(17, 0, 255);
+      }
+      
+      #home h1{
+         margin-top: 33vh;
+          margin-bottom: 5%;
+          margin-left: 4%;
+          margin-right: 1%;
+          font: 2em normal;
+          text-shadow: 2px 2px rgba(24, 24, 24, 0.89);
+       }
+      
+       #home, #about p{
+          font-size: 56px;
+       }
+      
+      
+
+   }
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
